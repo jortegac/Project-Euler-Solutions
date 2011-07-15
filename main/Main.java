@@ -1,15 +1,5 @@
 package main;
 
-
-import problems.Problem004;
-import problems.Problem005;
-import problems.Problem006;
-import problems.Problem007;
-import problems.Problem008;
-import problems.Problem010;
-
-
-
 public class Main {
 
     /**
@@ -29,6 +19,5 @@ public class Main {
         //System.out.println(Problem008.findLargestProduct());
         System.out.println(Problem010.sumOfPrimesUnderLimit(2000000));
     }
-
 }
 
