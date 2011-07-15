@@ -11,7 +11,7 @@ public class Problem001 {
 
     /**Find the sum of all the multiples of 3 or 5 below the limit established.
      * @param limit
-     * @return
+     * @return The sum of all the multiples of 3 or 5 below the limit
      */
     public static int sumOfMultiplesOf3Or5(int limit) {
         int total = 0;
@@ -28,10 +28,10 @@ public class Problem001 {
     
 
     /** Checks if x is multiple of y
-     * @param x
-     * @param y
-     * @return
-     */
+     * @param 	x
+     * @param 	y
+     * @return 	True - If x is multiple of y
+     */			False - Otherwise
     private static boolean isMultiple(int x, int y) {
         
         boolean response = false;
